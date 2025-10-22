@@ -1,0 +1,9 @@
+{
+  "ecap": "1.0",
+  "verified": true,
+  "timestamp": "2025-10-22T21:00:00Z",
+  "issuer": "joacs.de",
+  "signature": "JAMONE-ECAP-VERIFIED",
+  "checksum": "783CD00F6298B754AF2CB53D010074A92C99E024AA8BEAA74757BF1AD06B9FFD",
+  "message": "This endpoint confirms that joacs.de actively supports and implements the ECAP / 1.0 ethical automation protocol."
+}

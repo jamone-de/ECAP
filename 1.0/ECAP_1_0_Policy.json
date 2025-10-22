@@ -1,0 +1,77 @@
+{
+  "$schema": "https://joacs.de/ecap/1.0/schema/ecap_policy.schema.json",
+  "public_key_url": "https://joacs.de/ecap/1.0/publickey.pem",
+  "version": "1.0",
+  "policy_id": "ecap-policy-2025-001",
+  "issued": "2025-10-21T00:00:00Z",
+  "last_reviewed": "2025-10-21T00:00:00Z",
+  "policy_valid_until": "2026-10-21T00:00:00Z",
+  "publisher": {
+    "name": "Adnan Schulze-H\u00fcneke (JamOne-DE)",
+    "organization": "JamOne-DE",
+    "contact": "hallo@jamone.de",
+    "contact_for_data_protection": "hallo@jamone.de",
+    "website": "https://joacs.de"
+  },
+  "scope": {
+    "allow": [
+      "/public/*",
+      "/news/*",
+      "/docs/ecap/*"
+    ],
+    "disallow": [
+      "/private/*",
+      "/admin/*",
+      "/user-data/*"
+    ],
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "burst_limit": 10
+    }
+  },
+  "licenses": {
+    "non_commercial": {
+      "allowed": true,
+      "require_attribution": true,
+      "text": "Use of ECAP data for non-commercial indexing and academic research is permitted with clear source attribution to JamOne-DE (ECAP / 1.0)."
+    },
+    "commercial": {
+      "allowed": true,
+      "revenue_share_percent": 20,
+      "terms_url": "https://joacs.de/ecap/license/commercial"
+    }
+  },
+  "forensics": {
+    "log_endpoint": "https://joacs.de/ecap/logs",
+    "hash_algorithm": "sha256",
+    "retention_days": 90,
+    "verification_endpoint": "https://joacs.de/ecap/verify",
+    "gdpr_compliance": "https://joacs.de/ecap/1.0/GDPR_COMPLIANCE.md"
+  },
+  "honeypot_mode": {
+    "active": true,
+    "paths": [
+      "/test/datafeed",
+      "/sample/articles"
+    ],
+    "watermarking": true,
+    "notice": "Unauthorized automated extraction of honeypot data may trigger forensic recording under ECAP / 1.0."
+  },
+  "legal": {
+    "license": "JamOne Public Reference License (JPRL-1.0)",
+    "license_url": "https://joacs.de/ecap/1.0/LICENSE_JPRL_1_0.txt",
+    "jurisdiction": "EU / Germany",
+    "law_reference": "GDPR (EU 2016/679), Digital Services Act (2022/2065)"
+  },
+  "i18n": {
+    "default_language": "en",
+    "available_languages": [
+      "en",
+      "de"
+    ]
+  },
+  "metadata": {
+    "checksum_sha256": "b7fae76f3e1c93a72d7c8beec49a5c0f39b9a7ac10f1e1f5b5ad1c901eaf5e54",
+    "signature": "JAMONE-ECAP-JDSA-2025-ED25519-BASE64"
+  }
+}

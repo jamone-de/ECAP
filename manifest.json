@@ -1,0 +1,16 @@
+{
+  "standard": "ECAP",
+  "version": "1.0.0",
+  "title": "Ethical Crawler Agreement Protocol",
+  "publisher": "JamOne-DE",
+  "author": "Adnan Schulze-Hüneke",
+  "status": "Public Reference Manifest — Final Publication Edition",
+  "license": "JamOne Public Reference License (JPRL-1.0)",
+  "releaseDate": "2025-10-21",
+  "specification": "https://joacs.de/ecap/1.0/ECAP_1_0_Specification.md",
+  "verify": "https://joacs.de/ecap/1.0/verify/verify.json",
+  "contact": "mailto:hallo@jamone.de",
+  "checksum": "783CD00F6298B754AF2CB53D010074A92C99E024AA8BEAA74757BF1AD06B9FFD",
+  "governance": "https://joacs.de/ecap/1.0/ECAP_Governance_Manifest.md",
+  "comment": "Machines should ask before they take."
+}

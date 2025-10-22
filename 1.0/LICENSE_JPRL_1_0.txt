@@ -1,0 +1,115 @@
+JamOne Public Reference License
+Version 1.0 — October 2025
+Copyright © 2025 Adnan Schulze-Hüneke (JamOne-DE)
+All Rights Reserved.
+
+------------------------------------------------------------
+PREAMBLE
+------------------------------------------------------------
+The JamOne Public Reference License (JPRL-1.0) defines the legal framework
+for open public reference specifications published by JamOne-DE.
+It protects the integrity, authorship, and verifiable identity
+of technical standards such as ECAP / Ethical Crawler Agreement Protocol,
+while allowing anyone to implement, reference, or extend them in good faith.
+
+This license is intended for international use and shall be interpreted
+in a technology-neutral manner under the principles of EU and global
+intellectual property law (Berne Convention).
+
+------------------------------------------------------------
+1. DEFINITIONS
+------------------------------------------------------------
+“Reference Work” means this published specification, including text,
+figures, examples, schemas, or data structures.
+
+“Implementation” means any software, service, device, or process
+that makes functional use of the Reference Work.
+
+“Author” means Adnan Schulze-Hüneke (JamOne-DE), creator and publisher
+of the ECAP / Ethical Crawler Agreement Protocol.
+
+------------------------------------------------------------
+2. PERMISSION
+------------------------------------------------------------
+The Reference Work may be freely read, distributed, and implemented,
+provided that:
+
+a) Proper attribution to the Author and JamOne-DE is retained
+   in all copies, documentation, interfaces, and metadata.
+
+b) Implementations clearly identify compliance as
+   “ECAP / 1.0 compatible” or “based on ECAP / 1.0”
+   rather than claiming ownership of the protocol itself.
+
+c) This license text remains accessible together with any
+   published implementation or derivative documentation.
+
+------------------------------------------------------------
+3. RESTRICTIONS
+------------------------------------------------------------
+a) Re-branding, renaming, or republishing of the Reference Work
+   under any other name or trademark is prohibited.
+
+b) Creating derivative standards or specifications that
+   obscure or replace authorship attribution is prohibited.
+
+c) The Reference Work may not be sold, sublicensed, or used
+   as part of a proprietary licensing scheme that restricts
+   others from implementing ECAP / 1.0.
+
+------------------------------------------------------------
+4. INTEGRITY AND CITATION
+------------------------------------------------------------
+Implementations must preserve functional compatibility
+with the ECAP / 1.0 handshake semantics when claiming compliance.
+
+Formal citation format:
+
+Schulze-Hüneke, Adnan (2025).
+ECAP / 1.0 — Ethical Crawler Agreement Protocol.
+JamOne-DE. https://joacs.de/ecap/1.0/
+
+------------------------------------------------------------
+5. LIABILITY AND WARRANTY DISCLAIMER
+------------------------------------------------------------
+This Reference Work is provided “AS IS”, without warranty of any kind,
+express or implied, including but not limited to warranties of merchantability,
+fitness for a particular purpose, or non-infringement.
+
+In no event shall the Author or JamOne-DE be liable for any claim, damages,
+or other liability, whether in contract, tort, or otherwise, arising from,
+out of, or in connection with the Reference Work or its implementation.
+
+------------------------------------------------------------
+6. GOVERNING LAW
+------------------------------------------------------------
+This license shall be governed by and construed in accordance
+with the laws of the European Union and the Federal Republic of Germany.
+Jurisdiction: Braunschweig, DE.
+
+------------------------------------------------------------
+7. VERSIONING AND REVISIONS
+------------------------------------------------------------
+Future versions of this license may be published by JamOne-DE.
+Implementations may continue to reference JPRL-1.0 or upgrade at will.
+Any modification of this license text is prohibited except by the Author.
+
+------------------------------------------------------------
+8. ATTRIBUTION NOTICE
+------------------------------------------------------------
+When displayed in documentation, user interfaces, or code comments,
+the following line must appear:
+
+“ECAP / 1.0 — Ethical Crawler Agreement Protocol  
+© 2025 Adnan Schulze-Hüneke (JamOne-DE) — Licensed under JPRL-1.0”
+
+------------------------------------------------------------
+9. OPTIONAL DIGITAL INTEGRITY SECTION (Recommended for v1.1)
+------------------------------------------------------------
+Digital Signature: JAMONE-ECAP-JDSA-2025-ED25519  
+Verification URL: https://joacs.de/ecap/verify  
+Timestamp Service: OpenTimestamps.org / RFC 3161 compatible
+
+------------------------------------------------------------
+END OF TERMS
+------------------------------------------------------------
